@@ -1,5 +1,5 @@
-drop table authorities;
-drop table users;
+drop table if exists authorities;
+drop table if exists users;
 
 
 CREATE TABLE if not exists users(
